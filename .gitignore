@@ -1,0 +1,21 @@
+# Environment
+.env
+.env.local
+.env.production
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temporary
+*.tmp
+*.bak
