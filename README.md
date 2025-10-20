@@ -291,3 +291,8 @@ return process(input_value)
 def enhanced_function():
     """Enhanced functionality"""
     return improved_result()
+
+## Update 2025-10-20 16:23:26
+if data is None:
+    raise ValueError('Data cannot be None')
+return validate_data(data)
