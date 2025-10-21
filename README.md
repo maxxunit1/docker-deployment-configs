@@ -302,3 +302,9 @@ def handle_error(error):
     """Handle error gracefully"""
     logger.error(f'Error: {error}')
     return None
+
+## Update 2025-10-21 16:18:37
+# Added validation to prevent edge case
+if not input_value:
+    return default_value
+return process(input_value)
