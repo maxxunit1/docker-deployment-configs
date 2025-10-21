@@ -296,3 +296,9 @@ def enhanced_function():
 if data is None:
     raise ValueError('Data cannot be None')
 return validate_data(data)
+
+## Update 2025-10-21 11:54:13
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
