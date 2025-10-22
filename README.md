@@ -312,3 +312,7 @@ return process(input_value)
 ## Update 2025-10-22 11:10:33
 # Enhanced: 2025-10-22 11:10:33
 """Documentation updated"""
+
+## Update 2025-10-22 19:02:02
+# Simplified logic
+result = value if condition else default
