@@ -338,3 +338,7 @@ def enhanced_function():
 ## Update 2025-11-02 13:09:03
 # Improved: 2025-11-02 13:09:03
 # Additional configuration
+
+## Update 2025-11-04 17:52:28
+# Simplified logic
+result = value if condition else default
