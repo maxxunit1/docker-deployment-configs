@@ -30,3 +30,9 @@ def new_feature():
     """New feature implementation"""
     logger.info('Feature working')
     return True
+
+# Fix logging system in admin panel - 2026-02-13 18:24:51
+def handle_error(error):
+    """Handle error gracefully"""
+    logger.error(f'Error: {error}')
+    return None
